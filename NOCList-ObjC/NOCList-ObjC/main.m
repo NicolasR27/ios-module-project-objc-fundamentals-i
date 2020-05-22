@@ -9,9 +9,7 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    LSIAgent *ethan =[[[LSIAgentalloc]] inWithCoverName: "Ethan Hunt", realName: "Tom Cruise", accessLevel: 8, compromised: false
+    
     return 0;
 }
