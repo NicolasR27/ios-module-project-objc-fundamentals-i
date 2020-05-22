@@ -33,7 +33,7 @@ int main(int argc, const char * argv[]) {
             }
         }
         
-        NSLog(@"Total Nuber of compromised agents: %d", compromisedCount);
+        NSLog(@"Total Number of compromised agents: %d", compromisedCount);
         
         int cleanCount = 0;
         for (LSIAgent *agent in agents) {
@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
             }
         }
         
-        NSLog(@"Total Nuber of clean agents: %d", cleanCount);
+        NSLog(@"Total Number of clean agents: %d", cleanCount);
         
         for (LSIAgent *agent in agents) {
             if ([agent.accessLevel isGreaterThan:@7]) {
